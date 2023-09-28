@@ -38,7 +38,32 @@ realizar a devolução e o pagamento, em caso de multa.
 
 **Tela Cadstro:** Nas 3 telas de cadastro simplesmente são formulários para preencher os dados necessários com as opções de enviar ou cancelar, para retornar. No caso de Livro, caso o Assunto, Autor ou Editora do livro ainda não estiver cadastrada, pode-se cadastrar nesse momento, surgindo outro forumário pare preencher os dados necessários.
 
-##Dados:
+## Dados:
+
+Dados presentes nos artibutos das entidades/classes do sistema além do diagrama E/R do Banco de Dados.
+
+**Usuário:** Matricula, Nome do Usuário, E-mail, Data de Nascimento, Senha.
+
+**Leitor: (extends Usuário)** Curso, Multa Parcial
+
+**Bibliotecário: (extends Usuário)** Salário
+
+**Livro:** ISBN, Código do Assunto, Código da Editora, Título, Edição
+
+**Autoria:** ISBN, Código do Autor, Data da Publicação
+
+**Autor:** Código do Autor, Nome do Autor, Nascionalidade
+
+**Assunto:** Código do Assunto, Nome do Assunto
+
+**Editora:** Código da Editora, Nome da Editora
+
+**Exemplares:** Código do Exemplar, ISBN, Condição (Bom, Médio, Ruim), Tipo (Exclusivo, Regular), Status (Emprestado, Disponível, Manutenção)
+
+**Emprestimo:** Código do Empresimo, Matricula, Código do Exemplar, Data
+
+### Modelo Entidade Relacionamento:
+
 
 
 
