@@ -58,12 +58,12 @@ Dados presentes nos artibutos das entidades/classes do sistema além do diagrama
 
 **Editora:** Código da Editora, Nome da Editora
 
-**Exemplares:** Código do Exemplar, ISBN, Condição (Bom, Médio, Ruim), Tipo (Exclusivo, Regular), Status (Emprestado, Disponível, Manutenção)
+**Exemplar:** Código do Exemplar, ISBN, Condição (Bom, Médio, Ruim), Tipo (Exclusivo, Regular), Status (Emprestado, Disponível, Manutenção)
 
 **Emprestimo:** Código do Empresimo, Matricula, Código do Exemplar, Data
 
 ### Modelo Entidade Relacionamento:
-
+![Untitled Diagram (3)](https://github.com/BrantLauro/LBLibrary/assets/60024796/effd74c5-0d8f-4f83-a602-b210f9701e41)
 
 
 
